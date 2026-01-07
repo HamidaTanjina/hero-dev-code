@@ -11,6 +11,9 @@
 header{
    background-color: #FFF8F3;
    padding-top: 50px;
+   background: url("../images/developer.png"),url("..//images/header_bg.png"),#FFF8F3;
+   background-position: top left,bottom right;
+   background-repeat: no-repeat;
 
 }
 .btn{
@@ -25,7 +28,23 @@ header{
      
     width: 150px;
     height: 65px;
+    cursor: pointer;
 }
+.sheading{
+    max-width: 827px;
+    text-align: center;
+}
+.sheading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.sheading p{
+ margin-bottom: 30px;
+ font-size: 18px;
+color: #757575;
+ line-height: 30px;
+}
+.sheading 
 .logo h2{
     font-size: 45px;
     font-weight: 900;
@@ -50,4 +69,65 @@ nav{
     margin:0px auto;
     display: flex;
     justify-content: space-between;
+}
+#Banner {
+    border: 1px #FFF8F3;
+  margin: 47px  38px 0 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#Banner .banner-content{
+  max-width: 585px;
+}
+
+
+#Banner .banner-content h2{
+    font-size: 45px;
+  color: #474747;
+  font-weight: 600px;
+  margin-bottom: 5px;
+}
+
+#Banner .banner-content h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    margin-bottom: 20px;
+}
+#Banner .banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#Banner .bannerimg{
+    max-width: 584px;
+    vertical-align: middle;
+}
+#about{
+    padding-top: 130px;
+}
+#about .about-container{
+    width:71%;
+    max-width: 1140px;
+    margin: 0;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .p{
+    color: #757575;
+   font-size: 20px;
+   line-height: 30px;
+}
+.about-info h4{
+   color: #474747;
+  font-size:20px;
+  font-weight: bold;
 }
