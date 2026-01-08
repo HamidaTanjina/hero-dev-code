@@ -122,6 +122,9 @@ nav{
     display: flex;
     justify-content: space-around;
 }
+.text{
+    text-align: center;
+}
 .about-info .p{
     color: #757575;
    font-size: 20px;
@@ -199,4 +202,35 @@ color: #757575;
     margin: 30px 0;
 }
 
+}
+footer{
+ margin-top: 130px;
+ background-color: #FFF8F3;
+ padding: 130px 0;
+}
+footer .cont{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.cont .social{
+    max-width: 562px;
+}
+.cont h2{
+    font-size: 35px;
+    color: #181818;
+margin-bottom: 20px;
+
+}
+.cont .social .p{
+    color:#474747;
+    line-height: 28px;
+    font-size: 16 px;
+    margin-bottom: 30px;
+
+}
+.cont .icon a{
+  margin-right: 24px ;
 }
